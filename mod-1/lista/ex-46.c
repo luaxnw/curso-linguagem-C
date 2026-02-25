@@ -7,16 +7,18 @@ Gere outro numero formado pelos dıgitos invertidos do numero lido.
 
 int main()
 {
-    int numeroUser = 0, aux = 0, i = 0;
+    int numeroUser = 0, resultado = 0, resto = 0;
     printf("Informe um numero para ser invertido: ");
     scanf("%i", &numeroUser);
 
     while (numeroUser > 0)
     {
-        aux = (numeroUser % 10);
+        resto = (numeroUser % 10);
+        resultado = resultado * 10 + resto;
+        
         numeroUser /= 10;
     }
-    printf("\n%i - %i ", numeroUser, aux);
+    printf("\n%i - ", resultado);
 
     return 0;
 }
