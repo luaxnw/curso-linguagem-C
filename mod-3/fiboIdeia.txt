@@ -1,0 +1,23 @@
+aux1 = 0
+aux2 = 1
+soma = aux1 + aux2
+
+aux1 = soma - aux1 / 1
+aux2 = soma / 1
+
+soma = aux1 + aux2 / 2
+
+aux1 = soma - aux1 / 1
+aux2 = soma / 2
+
+soma = aux1 + aux2 / 3
+
+aux1 = soma - aux1 / 2
+aux2 = soma / 3
+
+soma = aux1 + aux2 // 5
+
+aux1 = soma - aux1 / 3
+aux2 = soma / 5
+
+
